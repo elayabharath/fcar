@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Car : MonoBehaviour
 {
 
   public Rigidbody rb;

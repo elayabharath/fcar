@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
   public Transform cameraPos;
-  public Player player;
+  public Car player;
   public Text score;
   void Start()
   {
