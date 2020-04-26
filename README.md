@@ -21,3 +21,8 @@ https://developer.oculus.com/documentation/unity/unity-utilities-overview/
 Pointers on how to build Input controllers
 https://developer.oculus.com/design/bp-userinput/
 
+How to use OVRCameraRig
+https://www.youtube.com/watch?v=9_P5yFqwTGU
+
+Unit Serializes variables inside classes and makes them available as Options in the UI
+https://docs.unity3d.com/ScriptReference/SerializeField.html
