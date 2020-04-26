@@ -26,3 +26,9 @@ https://www.youtube.com/watch?v=9_P5yFqwTGU
 
 Unit Serializes variables inside classes and makes them available as Options in the UI
 https://docs.unity3d.com/ScriptReference/SerializeField.html
+
+Hand Tracking
+https://developer.oculus.com/design/hands-design-ui/
+
+---
+Attempting to make the car grabble, but it's not working. Added Distance Grabbable and Grabbable to the car. Grabber is added by default to both hands.. included distance grabbable to the left hand, but not dice.

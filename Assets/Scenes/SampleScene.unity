@@ -541,6 +541,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa4a34fb8bbe14649bca25aee46a5f4e, type: 3}
+--- !u!1 &1036100726 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 143668, guid: e6ba3498ffa1e534b91a07264266e6b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 270141666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1036100727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036100726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b388ff4c8d1f3644a143b16d45403ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabBegin: 0.55
+  grabEnd: 0.35
+  m_parentHeldObject: 0
+  m_moveHandPosition: 0
+  m_gripTransform: {fileID: 0}
+  m_grabVolumes: []
+  m_controller: 0
+  m_parentTransform: {fileID: 0}
+  m_player: {fileID: 0}
+  m_focusColor: {r: 0, g: 0, b: 0, a: 0}
+  m_spherecastRadius: 0
+  m_noSnapThreshhold: 0.05
+  m_useSpherecast: 0
+  m_preventGrabThroughWalls: 0
+  m_objectPullVelocity: 10
+  m_maxGrabDistance: 0
+  m_grabObjectsInLayer: 0
+  m_obstructionLayer: 0
 --- !u!4 &1055565819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 477154, guid: ce816f2e6abb0504092c23ed9b970dfd,
@@ -809,7 +845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -863,6 +899,8 @@ GameObject:
   - component: {fileID: 1694338971}
   - component: {fileID: 1694338970}
   - component: {fileID: 1694338975}
+  - component: {fileID: 1694338976}
+  - component: {fileID: 1694338977}
   m_Layer: 0
   m_Name: car
   m_TagString: Untagged
@@ -974,6 +1012,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1694338970}
   collisionCount: 0
+--- !u!114 &1694338976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694338969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 1
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+--- !u!114 &1694338977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694338969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1a7708e76601b4ea829921c33bc624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 1
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+  m_materialColorField: 
 --- !u!1 &1921336177
 GameObject:
   m_ObjectHideFlags: 0
