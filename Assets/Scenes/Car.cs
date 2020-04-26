@@ -27,9 +27,8 @@ public class Car : MonoBehaviour
         // This is the unity input capture.
         //float horizontalInput = Input.GetAxis("Horizontal");
 
-        // The Update is needed for OVR input capture.
-        // Seems it can be avoided if we use OVRManager
-        OVRInput.Update();
+        // The Update is needed for OVR input capture, if we arent using the OVRManager
+        //OVRInput.Update();
         OVRInput.Controller ctrl = OVRInput.GetConnectedControllers();     
 
         Vector2 horizontalAxis = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
