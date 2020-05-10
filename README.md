@@ -32,3 +32,13 @@ https://developer.oculus.com/design/hands-design-ui/
 
 ---
 Attempting to make the car grabble, but it's not working. Added Distance Grabbable and Grabbable to the car. Grabber is added by default to both hands.. included distance grabbable to the left hand, but not dice.
+
+---
+Well okay, now the left hand is grabbable while the right hand is distance grabbable.
+The ball is grabbable, while the bottle is distance grabbable
+
+Both hands can grab the bottle. The right hand randomly grabs the bottle at a distance. Unclear what exactly triggers it but it suddenly snaps to my hands. There is also a light glow around the bottle if I move my right hand, which does not happen if I move my left hand.
+
+Left hand can grab the ball, but right hand seems to create some explosive force.
+
+(also, made the car bigger, and moved the items to the edge of the car, and removed the obstacles for ease of use)

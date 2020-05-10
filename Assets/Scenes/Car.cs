@@ -41,12 +41,12 @@ public class Car : MonoBehaviour
 
         if (horizontalAxis.x < -0.5f)
         {
-            rb.AddForce(-10000 * Time.deltaTime, 0, 0);
+            //rb.AddForce(-10000 * Time.deltaTime, 0, 0);
         }
 
         if (horizontalAxis.x > 0.5f)
         {
-            rb.AddForce(10000 * Time.deltaTime, 0, 0);
+            //rb.AddForce(10000 * Time.deltaTime, 0, 0);
         }
 
 
