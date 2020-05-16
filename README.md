@@ -9,7 +9,7 @@
 
 
 ----
-Notes:
+## Notes:
 Unclear what FollowPlayer is supposed to do. Even if it's disabled / commented out the ground follows me wherever I look.
 
 OVRInput used for capturing input from the oculus controllers
@@ -27,13 +27,11 @@ https://www.youtube.com/watch?v=9_P5yFqwTGU
 Unit Serializes variables inside classes and makes them available as Options in the UI
 https://docs.unity3d.com/ScriptReference/SerializeField.html
 
-Hand Tracking
-https://developer.oculus.com/design/hands-design-ui/
 
 ---
-Attempting to make the car grabble, but it's not working. Added Distance Grabbable and Grabbable to the car. Grabber is added by default to both hands.. included distance grabbable to the left hand, but not dice.
+### Failed experiments with distance grabbing.
+Attempting to make the car grabble, but it's not working - likely because the car is too big. Added Distance Grabbable and Grabbable to the car. Grabber is added by default to both hands.. included distance grabbable to the left hand, but no luck
 
----
 Well okay, now the left hand is grabbable while the right hand is distance grabbable.
 The ball is grabbable, while the bottle is distance grabbable
 
@@ -42,3 +40,15 @@ Both hands can grab the bottle. The right hand randomly grabs the bottle at a di
 Left hand can grab the ball, but right hand seems to create some explosive force.
 
 (also, made the car bigger, and moved the items to the edge of the car, and removed the obstacles for ease of use)
+
+--
+### Hand Tracking:
+https://developer.oculus.com/design/hands-design-ui/
+https://developer.oculus.com/documentation/unity/unity-handtracking/
+https://skarredghost.com/2020/01/03/how-to-oculus-quest-hands-sdk-unity/
+
+There doesnt seem to be a built-in way to grab using hand-tracking.
+https://www.reddit.com/r/oculus/comments/eq2h21/hand_tracking_experiments_measuring_grab_force/
+
+We can adapt the OVR Grabber to make it grab on pinch like so:
+https://www.youtube.com/watch?v=UoSzhoZ18bE
